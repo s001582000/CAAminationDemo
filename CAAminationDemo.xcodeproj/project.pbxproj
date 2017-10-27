@@ -25,6 +25,10 @@
 		58B378881F7BA365002F49C9 /* KeyFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B378871F7BA08A002F49C9 /* KeyFrameViewController.swift */; };
 		58B378891F7BA374002F49C9 /* KeyFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B378861F7BA08A002F49C9 /* KeyFrameViewController.xib */; };
 		58B3788A1F7BA374002F49C9 /* FireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B378841F7BA04F002F49C9 /* FireViewController.xib */; };
+		58CCD8A31FA1B16E004E8C0D /* CA3DLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCD8A11FA1B16E004E8C0D /* CA3DLayerViewController.swift */; };
+		58CCD8A41FA1B16E004E8C0D /* CA3DLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CCD8A21FA1B16E004E8C0D /* CA3DLayerViewController.xib */; };
+		58CCD8D81FA2CD23004E8C0D /* GradientLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCD8D61FA2CD23004E8C0D /* GradientLayerViewController.swift */; };
+		58CCD8D91FA2CD23004E8C0D /* GradientLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CCD8D71FA2CD23004E8C0D /* GradientLayerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		58B378841F7BA04F002F49C9 /* FireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FireViewController.xib; sourceTree = "<group>"; };
 		58B378861F7BA08A002F49C9 /* KeyFrameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyFrameViewController.xib; sourceTree = "<group>"; };
 		58B378871F7BA08A002F49C9 /* KeyFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameViewController.swift; sourceTree = "<group>"; };
+		58CCD8A11FA1B16E004E8C0D /* CA3DLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA3DLayerViewController.swift; sourceTree = "<group>"; };
+		58CCD8A21FA1B16E004E8C0D /* CA3DLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CA3DLayerViewController.xib; sourceTree = "<group>"; };
+		58CCD8D61FA2CD23004E8C0D /* GradientLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewController.swift; sourceTree = "<group>"; };
+		58CCD8D71FA2CD23004E8C0D /* GradientLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradientLayerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 				58AA92E91F90C40800AB3F65 /* layer1.png */,
 				58AA92EA1F90C40800AB3F65 /* layer2.png */,
 				58AA92EB1F90C40800AB3F65 /* layer3.png */,
+				58CCD8D51FA2CCFD004E8C0D /* 混色 */,
+				58CCD89E1FA1B13F004E8C0D /* 3D */,
 				583FA56B1F7CD68A00AA0AF8 /* 應用 */,
 				58B378851F7BA08A002F49C9 /* KeyFrame */,
 				58A99C1F1F78F63F0063BDA3 /* 煙火 */,
@@ -133,6 +143,24 @@
 				58B378871F7BA08A002F49C9 /* KeyFrameViewController.swift */,
 			);
 			path = KeyFrame;
+			sourceTree = "<group>";
+		};
+		58CCD89E1FA1B13F004E8C0D /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				58CCD8A11FA1B16E004E8C0D /* CA3DLayerViewController.swift */,
+				58CCD8A21FA1B16E004E8C0D /* CA3DLayerViewController.xib */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		58CCD8D51FA2CCFD004E8C0D /* 混色 */ = {
+			isa = PBXGroup;
+			children = (
+				58CCD8D61FA2CD23004E8C0D /* GradientLayerViewController.swift */,
+				58CCD8D71FA2CD23004E8C0D /* GradientLayerViewController.xib */,
+			);
+			path = "混色";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,12 +224,14 @@
 			files = (
 				58AA92EC1F90C41700AB3F65 /* layer1.png in Resources */,
 				58AA92ED1F90C41700AB3F65 /* layer2.png in Resources */,
+				58CCD8D91FA2CD23004E8C0D /* GradientLayerViewController.xib in Resources */,
 				58AA92EE1F90C41700AB3F65 /* layer3.png in Resources */,
 				583FA5711F7CE0A200AA0AF8 /* 145910281.jpg in Resources */,
 				58B378891F7BA374002F49C9 /* KeyFrameViewController.xib in Resources */,
 				58B3788A1F7BA374002F49C9 /* FireViewController.xib in Resources */,
 				58B378811F7B9EDC002F49C9 /* icon.png in Resources */,
 				585FF43D1F78DB88008AC20C /* LaunchScreen.storyboard in Resources */,
+				58CCD8A41FA1B16E004E8C0D /* CA3DLayerViewController.xib in Resources */,
 				585FF43A1F78DB88008AC20C /* Assets.xcassets in Resources */,
 				583FA56F1F7CD6B600AA0AF8 /* ApplyViewController.xib in Resources */,
 				58A99C1E1F78DE530063BDA3 /* BaseAnimationViewController.xib in Resources */,
@@ -218,6 +248,8 @@
 			files = (
 				58B378881F7BA365002F49C9 /* KeyFrameViewController.swift in Sources */,
 				58A99C221F78F64B0063BDA3 /* FireViewController.swift in Sources */,
+				58CCD8D81FA2CD23004E8C0D /* GradientLayerViewController.swift in Sources */,
+				58CCD8A31FA1B16E004E8C0D /* CA3DLayerViewController.swift in Sources */,
 				58A99C1D1F78DE530063BDA3 /* BaseAnimationViewController.swift in Sources */,
 				583FA56E1F7CD6B600AA0AF8 /* ApplyViewController.swift in Sources */,
 				585FF4461F78DBCB008AC20C /* ListViewController.swift in Sources */,

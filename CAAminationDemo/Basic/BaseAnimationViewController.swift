@@ -142,5 +142,5 @@ class BaseAnimationViewController: UIViewController {
 //        animation.delegate = self
         layer.add(animation, forKey: "上下")
     }
-
+    
 }

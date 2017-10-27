@@ -18,7 +18,14 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         arrData.append("煙火")
         arrData.append("KeyFrame")
         arrData.append("應用")
+        arrData.append("3D")
+        arrData.append("混色")
+        
     }
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -48,6 +55,10 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             navigationController?.pushViewController(KeyFrameViewController(), animated: true)
         } else if arrData[indexPath.row] == "應用" {
             navigationController?.pushViewController(ApplyViewController(), animated: true)
+        } else if arrData[indexPath.row] == "3D" {
+            navigationController?.pushViewController(CA3DLayerViewController(), animated: true)
+        } else if arrData[indexPath.row] == "混色" {
+            navigationController?.pushViewController(GradientLayerViewController(), animated: true)
         }
     }
 
